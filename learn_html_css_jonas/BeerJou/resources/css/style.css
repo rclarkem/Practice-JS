@@ -46,17 +46,33 @@ h1 {
   height: 100%;
   position: absolute;
   z-index: 3;
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.header-btn {
+.header-btn:link,
+.header-btn:visited {
   display: inline-block;
   font-size: 15px;
   margin-top: 10px;
   padding: 10px 30px;
-  color: white;
-  font-weight: 400;
+  /* background-color: white; */
+  font-weight: 700;
   letter-spacing: 1px;
-  border: 1px solid;
+  border: 1px solid #ff793f;
   border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
 }
+
+.header-btn:hover {
+  background-color: #ff793f;
+  color: #3f1300;
+}
+
+/* .header-btn.full {
+  color: #f7f1e3;
+}
+.header-btn.ghost {
+  color: #f7f1e3;
+} */
