@@ -16,3 +16,14 @@ html {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+header {
+  background-image: url('imgs/christin-hume-08tX2fsuSLg-unsplash.jpg');
+  background-size: cover;
+  /* background-position: center; */
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
