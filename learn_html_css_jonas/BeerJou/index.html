@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="vendors/css/normalize.css" />
     <link rel="stylesheet" href="vendors/css/grid.css" />
     <link rel="stylesheet" href="resources/css/style.css" />
@@ -10,22 +10,67 @@
       href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <title>BeerJo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet" />
+    <title>BeerJou</title>
   </head>
+
   <body>
+    <!-- Start of Header -->
     <header>
-      <nav>
-        <div class="row">
-          <img src="./resources/css/imgs/logo_size.jpg" alt="" />
-        </div>
-      </nav>
       <div class="overlay">
+        <nav>
+          <div class="row">
+            <img class="logo" src="./resources/css/imgs/beerjoulogo.png" alt="logo" />
+            <ul class="main-nav">
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
         <div class="banner-text">
           <h1>Life is short. <span style="color: #ff793f;">Drink Beer.</span></h1>
-          <a class="header-btn full" href="#">Download App</a>
-          <a class="header-btn ghost" href="#">Show me more</a>
+          <a class="header-btn full" href="#">App Coming Soon!</a>
         </div>
       </div>
     </header>
+    <!-- End of Header -->
+
+    <!-- Start of Section -->
+    <section class="section-features">
+      <div class="row">
+        <h2 class="title">Your Personal Beer Guide</h2>
+        <p class="tagline-text"> Hello, we're Beer Jou, the beer journal right on your mobile device. </p>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <ion-icon name="journal-outline"></ion-icon>
+          <h3 class="title-icon">Log The Beers You Have Tasted</h3>
+          <p>
+            Never forget what beers you have tried! Our application allows you to rate your tried beers by color, aroma,
+            and flavor.
+          </p>
+        </div>
+        <div class="col span-1-of-3">
+          <ion-icon name="people-circle-outline"></ion-icon>
+          <h3 class="title-icon">Share Your Favorite Beers</h3>
+          <p>
+            Tasted a beer you think your friends would like? Share with your friends which beers they need to try based
+            on your rating.
+          </p>
+        </div>
+        <div class="col span-1-of-3">
+          <ion-icon name="list-outline"></ion-icon>
+          <h3 class="title-icon">Add Beers to Your Wishlist</h3>
+          <p>
+            Now you will never forget which beers you want to try. Add to your wishlist all of the beers you want to
+            try.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
   </body>
 </html>
