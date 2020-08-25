@@ -124,7 +124,7 @@ section {
   font-weight: 400;
   text-align: center;
   margin-bottom: 20px;
-  color: #3f1300;
+  color: #ff793f;
   letter-spacing: 0.5px;
   font-family: 'Roboto Slab';
 }
@@ -156,6 +156,7 @@ section {
   margin-left: 15%;
   font-size: 20px;
   font-family: 'Asap';
+  color: #3f1300;
 }
 
 .box {
@@ -173,4 +174,5 @@ section {
   font-size: 200%;
   display: block;
   margin: 25px auto;
+  color: #3f1300;
 }
