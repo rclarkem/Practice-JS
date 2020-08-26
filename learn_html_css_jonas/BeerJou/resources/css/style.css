@@ -75,7 +75,7 @@ header {
   text-decoration: none;
   color: white;
   transition: background-color 0.3s, color 0.3s;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Raleway', serif;
 }
 
 .header-btn:hover {
@@ -191,11 +191,9 @@ section {
 }
 
 .beer-showcase li {
-  /* margin: 0 auto; */
-  /* text-align: center; */
   display: block;
   float: left;
-  width: 33%;
+  width: 33.3%;
 }
 
 .beer-photo {
@@ -204,6 +202,6 @@ section {
 }
 
 .beer-photo img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
