@@ -20,13 +20,6 @@ body {
   position: relative;
 }
 
-header {
-  background-image: url('imgs/christin-hume-08tX2fsuSLg-unsplash.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
 h1,
 h2,
 h3 {
@@ -46,6 +39,13 @@ h1 {
   font-family: 'Roboto Slab', 'Arial', sans-serif;
 }
 
+header {
+  background-image: url('imgs/christin-hume-08tX2fsuSLg-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
 .banner-text {
   position: absolute;
   width: 1140px;
@@ -59,7 +59,7 @@ h1 {
   height: 100%;
   position: absolute;
   z-index: 3;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .header-btn:link,
@@ -119,6 +119,7 @@ section {
   padding: 60px 0;
 }
 
+/* App Description Title */
 .title {
   font-size: 180%;
   font-weight: 400;
@@ -148,6 +149,7 @@ section {
   font-family: 'Roboto Slab';
 }
 
+/* App Description tagline */
 .tagline-text {
   line-height: 150%;
   width: 70%;
@@ -155,24 +157,53 @@ section {
   margin: auto;
   margin-left: 15%;
   font-size: 20px;
-  font-family: 'Asap';
+  font-family: 'Raleway', sans-serif;
   color: #3f1300;
+  font-weight: 400;
 }
 
+/* Row Description Title and Text */
 .box {
   padding: 1%;
 }
 
 .box p {
   color: #3f1300;
-  font-family: 'Asap', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 90%;
   line-height: 145%;
+  font-weight: 400;
 }
 
+/* Font Icon Class */
 .big {
   font-size: 200%;
   display: block;
   margin: 25px auto;
   color: #3f1300;
+}
+
+/* App Photos */
+
+.beer-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.beer-showcase li {
+  /* margin: 0 auto; */
+  /* text-align: center; */
+  display: block;
+  float: left;
+  width: 33%;
+}
+
+.beer-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.beer-photo img {
+  max-width: 100%;
+  height: auto;
 }
