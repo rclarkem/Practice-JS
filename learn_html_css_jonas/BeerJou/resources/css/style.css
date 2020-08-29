@@ -125,7 +125,7 @@ section {
   font-weight: 400;
   text-align: center;
   margin-bottom: 20px;
-  color: #ff793f;
+  color: #555555;
   letter-spacing: 0.5px;
   font-family: 'Roboto Slab';
 }
@@ -150,6 +150,11 @@ section {
 }
 
 /* App Description tagline */
+
+.app-description .tagline-text {
+  margin-bottom: 40px;
+}
+
 .tagline-text {
   line-height: 150%;
   width: 70%;
@@ -158,7 +163,7 @@ section {
   margin-left: 15%;
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
-  color: #3f1300;
+  color: #555555;
   font-weight: 400;
 }
 
@@ -168,7 +173,7 @@ section {
 }
 
 .box p {
-  color: #3f1300;
+  color: #555555;
   font-family: 'Raleway', sans-serif;
   font-size: 90%;
   line-height: 145%;
@@ -180,10 +185,14 @@ section {
   font-size: 200%;
   display: block;
   margin: 25px auto;
-  color: #3f1300;
+  color: #555555;
 }
 
 /* App Photos */
+
+.app-photos {
+  padding: 0;
+}
 
 .beer-showcase {
   list-style: none;
@@ -199,9 +208,18 @@ section {
 .beer-photo {
   width: 100%;
   margin: 0;
+  overflow: hidden;
+  background-color: black;
 }
 
 .beer-photo img {
   width: 100%;
+  opacity: 0.65;
   height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+.beer-photo img:hover {
+  transform: scale(1.03);
+  opacity: 1;
 }
