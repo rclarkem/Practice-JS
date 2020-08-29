@@ -14,6 +14,17 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
@@ -172,7 +183,9 @@ section {
   padding: 1%;
 }
 
-.box p {
+.box p,
+.steps p,
+.steps ul li {
   color: #555555;
   font-family: 'Raleway', sans-serif;
   font-size: 90%;
@@ -224,18 +237,62 @@ section {
   opacity: 1;
 }
 
-.steps-box {
-  margin-top: 30px;
+.iphone-section {
+  background-color: #f4f4f4;
 }
 
 .steps-box:first-child {
   text-align: right;
   padding-right: 3%;
+  margin-top: 30px;
 }
 .steps-box:last-child {
   padding-left: 3%;
+  margin-top: 70px;
 }
 
 .app-screen {
   width: 40%;
+}
+
+.num-app-steps ul {
+  display: block;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.num-app-steps ul li {
+  margin-left: 25%;
+}
+
+.app-store {
+  width: 30%;
+  height: auto;
+  margin-left: 10px;
+}
+
+.num-app-steps {
+  margin-bottom: 50px;
+}
+.num-app-steps .title-icon {
+  padding-top: 10px;
+}
+
+.num-app-steps:last-of-type {
+  margin-bottom: 80px;
+}
+
+.num-app-steps div {
+  color: #ff793f;
+  border: 2px solid #ff793f;
+  display: inline-block;
+  border-radius: 50%;
+  height: 54px;
+  width: 55px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 145%;
+  margin-right: 20px;
 }
