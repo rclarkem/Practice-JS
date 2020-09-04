@@ -98,11 +98,11 @@ header {
 .header-btn.full:link,
 .header-btn.full:visited {
   color: white;
-  transition: background-color 0.3s, color 0.3s;
+  background-color: #ff793f;
+  /* transition: background-color 0.3s, color 0.3s; */
   font-family: 'Raleway', serif;
 }
 
-.header-btn.full:hover,
 .header-btn.contact-us:hover {
   background-color: #ff793f;
   color: #3f1300;
@@ -315,4 +315,8 @@ section {
 
 .contact-column {
   text-align: center;
+}
+
+footer {
+  background-color: #333;
 }
