@@ -74,43 +74,36 @@ header {
 }
 
 .header-btn {
+  display: inline-block;
   margin-top: 10px;
   padding: 10px 30px;
   font-weight: 400;
+  border-radius: 20px;
+  font-size: 15px;
   letter-spacing: 1px;
   text-decoration: none;
   border: 1px solid #ff793f;
-  transition: background-color 0.3s, color 0.3s;
-  font-family: 'Raleway', serif;
+  text-transform: uppercase;
 }
 
 .header-btn.contact-us:link,
 .header-btn.contact-us:visited {
-  display: inline-block;
-  margin-top: 10px;
-  border-radius: 25px;
-  text-transform: uppercase;
   color: #555555;
   padding: 10px 30px;
   font-weight: 400;
   letter-spacing: 1px;
-  font-size: 25px;
-}
-
-.header-btn:hover {
-  background-color: #ff793f;
-  color: #3f1300;
+  font-size: 90%;
 }
 
 .header-btn.full:link,
 .header-btn.full:visited {
-  display: inline-block;
-  font-size: 15px;
-  border-radius: 20px;
   color: white;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Raleway', serif;
 }
 
-.header-btn.full:hover {
+.header-btn.full:hover,
+.header-btn.contact-us:hover {
   background-color: #ff793f;
   color: #3f1300;
 }
@@ -318,4 +311,8 @@ section {
   float: left;
   font-size: 145%;
   margin-right: 20px;
+}
+
+.contact-column {
+  text-align: center;
 }
