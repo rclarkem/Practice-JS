@@ -73,23 +73,44 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.header-btn:link,
-.header-btn:visited {
-  display: inline-block;
-  font-size: 15px;
+.header-btn {
   margin-top: 10px;
   padding: 10px 30px;
   font-weight: 400;
   letter-spacing: 1px;
-  border: 1px solid #ff793f;
-  border-radius: 20px;
   text-decoration: none;
-  color: white;
+  border: 1px solid #ff793f;
   transition: background-color 0.3s, color 0.3s;
   font-family: 'Raleway', serif;
 }
 
+.header-btn.contact-us:link,
+.header-btn.contact-us:visited {
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  color: #555555;
+  padding: 10px 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
 .header-btn:hover {
+  background-color: #ff793f;
+  color: #3f1300;
+}
+
+.header-btn.full:link,
+.header-btn.full:visited {
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+.header-btn.full:hover {
   background-color: #ff793f;
   color: #3f1300;
 }
@@ -253,6 +274,8 @@ section {
 
 .app-screen {
   width: 40%;
+  /* NOTE: when you add your actual phone image*/
+  /* margin-left: 25%; */
 }
 
 .num-app-steps ul {
@@ -263,7 +286,7 @@ section {
 }
 
 .num-app-steps ul li {
-  margin-left: 25%;
+  margin-left: 20%;
 }
 
 .app-store {
