@@ -50,6 +50,12 @@ h1 {
   font-family: 'Roboto Slab', 'Arial', sans-serif;
 }
 
+/*
+ ----------------------------------- 
+	BANNER
+--------------------------------------
+*/
+
 header {
   background-image: url('imgs/christin-hume-08tX2fsuSLg-unsplash.jpg');
   background-size: cover;
@@ -72,6 +78,12 @@ header {
   z-index: 3;
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+/*
+ ----------------------------------- 
+	BTNS
+--------------------------------------
+*/
 
 .header-btn {
   display: inline-block;
@@ -107,6 +119,12 @@ header {
   background-color: #ff793f;
   color: #3f1300;
 }
+
+/*
+ ----------------------------------- 
+	NAV BAR TOP
+--------------------------------------
+*/
 
 .logo {
   top: -40px;
@@ -144,7 +162,11 @@ section {
   padding: 60px 0;
 }
 
-/* App Description Title */
+/*
+ ----------------------------------- 
+	App Description Title and Text 
+--------------------------------------
+*/
 .title {
   font-size: 180%;
   font-weight: 400;
@@ -174,8 +196,6 @@ section {
   font-family: 'Roboto Slab';
 }
 
-/* App Description tagline */
-
 .app-description .tagline-text {
   margin-bottom: 30px;
 }
@@ -192,7 +212,6 @@ section {
   font-weight: 400;
 }
 
-/* Row Description Title and Text */
 .box {
   padding: 1%;
 }
@@ -207,7 +226,11 @@ section {
   font-weight: 400;
 }
 
-/* Font Icon Class */
+/*
+ ----------------------------------- 
+	Icon Fonts
+--------------------------------------
+*/
 .big {
   font-size: 200%;
   display: block;
@@ -215,7 +238,11 @@ section {
   color: #555555;
 }
 
-/* App Photos */
+/*
+ ----------------------------------- 
+	App Photos
+--------------------------------------
+*/
 
 .app-photos {
   padding: 0;
@@ -250,6 +277,11 @@ section {
   transform: scale(1.03);
   opacity: 1;
 }
+/*
+ ----------------------------------- 
+	How it works
+--------------------------------------
+*/
 
 .iphone-section {
   background-color: #f4f4f4;
@@ -312,11 +344,40 @@ section {
   font-size: 145%;
   margin-right: 20px;
 }
+/*
+ ----------------------------------- 
+	Contact US Section
+--------------------------------------
+*/
 
 .contact-column {
   text-align: center;
 }
 
+/*
+ ----------------------------------- 
+	FOOTER SECTION
+--------------------------------------
+*/
+
 footer {
   background-color: #333;
+}
+
+.footer-nav,
+.social-nav {
+  list-style: none;
+}
+
+.footer-nav li,
+.social-nav li {
+  display: inline-block;
+}
+
+.footer-nav {
+  float: left;
+}
+
+.social-nav {
+  float: right;
 }
