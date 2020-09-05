@@ -364,6 +364,13 @@ footer {
   background-color: #555555;
 }
 
+footer p {
+  text-align: center;
+  color: #aeaeae;
+  font-size: 15px;
+  padding: 15px;
+}
+
 .footer-nav,
 .social-nav {
   list-style: none;
@@ -395,7 +402,7 @@ footer {
 
 .social-nav li:last-child,
 .footer-nav li:last-child {
-  margin-right: 0;
+  /* margin-right: 0; */
 }
 
 .social-nav li a:link,
@@ -403,5 +410,12 @@ footer {
 .footer-nav li a:link,
 .footer-nav li a:visited {
   text-decoration: none;
-  color: #ff793f;
+  color: #aeaeae;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-nav li a:hover,
+.social-nav li a:active {
+  color: #fff;
 }
