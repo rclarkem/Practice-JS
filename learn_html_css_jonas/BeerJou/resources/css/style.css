@@ -361,23 +361,47 @@ section {
 */
 
 footer {
-  background-color: #333;
+  background-color: #555555;
 }
 
 .footer-nav,
 .social-nav {
   list-style: none;
+  margin-top: 10px;
+  text-transform: uppercase;
 }
 
 .footer-nav li,
 .social-nav li {
   display: inline-block;
+  margin-right: 20px;
 }
 
 .footer-nav {
   float: left;
 }
 
+.footer-nav li {
+  font-size: 17px;
+}
+
 .social-nav {
   float: right;
+}
+
+.social-nav li {
+  font-size: 23px;
+}
+
+.social-nav li:last-child,
+.footer-nav li:last-child {
+  margin-right: 0;
+}
+
+.social-nav li a:link,
+.social-nav li a:visited,
+.footer-nav li a:link,
+.footer-nav li a:visited {
+  text-decoration: none;
+  color: #ff793f;
 }
