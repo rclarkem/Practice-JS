@@ -367,7 +367,7 @@ footer {
 footer p {
   text-align: center;
   color: #aeaeae;
-  font-size: 15px;
+  font-size: 13px;
   padding: 15px;
 }
 
@@ -389,7 +389,7 @@ footer p {
 }
 
 .footer-nav li {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .social-nav {
@@ -397,13 +397,13 @@ footer p {
 }
 
 .social-nav li {
-  font-size: 23px;
+  font-size: 20px;
 }
-
+/* 
 .social-nav li:last-child,
 .footer-nav li:last-child {
-  /* margin-right: 0; */
-}
+  
+} */
 
 .social-nav li a:link,
 .social-nav li a:visited,
@@ -414,8 +414,18 @@ footer p {
 }
 
 .footer-nav li a:hover,
-.footer-nav li a:active,
-.social-nav li a:hover,
-.social-nav li a:active {
+.footer-nav li a:active {
   color: #fff;
+}
+
+.instagram,
+.twitter {
+  transition: color 0.4s;
+}
+
+.instagram:hover {
+  color: #c990eafc;
+}
+.twitter:hover {
+  color: #55acee;
 }
