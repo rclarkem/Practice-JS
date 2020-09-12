@@ -72,9 +72,16 @@
     width: 100%;
     margin-left: 0%;
   }
-  /* .num-app-steps {
-    margin-bottom: 20px;
+
+  /* .steps-box:first-child {
+    text-align: center;
+  } */
+
+  .num-app-steps h3 {
+    padding-right: 20%;
+    /* padding-bottom: 30%; */
   }
+  /*
   .num-app-steps:last-of-type {
     margin-bottom: 20px;
   } */
@@ -84,6 +91,10 @@
     padding: 4px;
     float: left;
     margin-right: 15px;
+	} */
+  /* 
+  .col {
+    width: 100%;
   } */
 }
 
