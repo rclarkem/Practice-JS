@@ -189,8 +189,7 @@ section {
 
 .title-icon {
   font-size: 110%;
-  font-weight: 700;
-  width: 380px;
+  width: 110%;
   margin-bottom: 15px;
   color: #ff793f;
   font-family: 'Roboto Slab';
@@ -204,7 +203,7 @@ section {
   line-height: 150%;
   width: 70%;
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
   margin-left: 15%;
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
@@ -323,7 +322,7 @@ section {
 .num-app-steps {
   margin-bottom: 50px;
 }
-.num-app-steps .title-icon {
+.num-app-steps {
   padding-top: 10px;
 }
 
