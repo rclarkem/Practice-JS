@@ -21,11 +21,33 @@
     width: 80%;
     margin-left: 10%;
   }
+
+  .steps-box {
+    margin-top: 10px;
+  }
+  .steps-box:last-of-type {
+    margin-top: 10px;
+  }
+  .num-app-steps {
+    margin-bottom: 40px;
+  }
+  .num-app-steps:last-of-type {
+    margin-bottom: 60px;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
 }
+
 /* Small phones to small tablets */
 @media only screen and (max-width: 767px) {
   .title-icon {
     width: 100%;
+  }
+  .app-store {
+    width: 50%;
+    height: auto;
   }
 }
 
@@ -34,5 +56,9 @@
   .title-icon {
     text-align: center;
     width: 100%;
+  }
+  .app-store {
+    width: 50%;
+    height: auto;
   }
 }
