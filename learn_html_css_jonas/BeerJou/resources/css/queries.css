@@ -17,7 +17,7 @@
     padding: 60px 0;
   }
   .tagline-text {
-    /* font-size: 100%; */
+    font-size: 110%;
     width: 80%;
     margin-left: 10%;
   }
@@ -36,7 +36,7 @@
   }
 
   .app-screen {
-    width: 50%;
+    width: 30%;
   }
 }
 
@@ -44,11 +44,47 @@
 @media only screen and (max-width: 767px) {
   .title-icon {
     width: 100%;
+    text-align: center;
   }
   .app-store {
-    width: 50%;
+    width: 40%;
     height: auto;
   }
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .banner-text {
+    padding: 0 4%;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+  .title {
+    font-size: 150%;
+  }
+  .tagline-text {
+    font-size: 110%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  /* .num-app-steps {
+    margin-bottom: 20px;
+  }
+  .num-app-steps:last-of-type {
+    margin-bottom: 20px;
+  } */
+  /* .num-app-steps div {
+    height: 40px;
+    width: 41px;
+    padding: 4px;
+    float: left;
+    margin-right: 15px;
+  } */
 }
 
 /* Small iphones 0  - 480px */
@@ -57,8 +93,11 @@
     text-align: center;
     width: 100%;
   }
+  .col {
+    width: 100%;
+  }
   .app-store {
-    width: 50%;
+    width: 40%;
     height: auto;
   }
 }
