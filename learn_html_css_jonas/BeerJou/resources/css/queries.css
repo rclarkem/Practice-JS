@@ -47,7 +47,7 @@
     text-align: center;
   }
   .app-store {
-    width: 40%;
+    width: 25%;
     height: auto;
   }
   body {
@@ -73,29 +73,29 @@
     margin-left: 0%;
   }
 
-  /* .steps-box:first-child {
+  .steps-box:first-child {
     text-align: center;
-  } */
+  }
 
   .num-app-steps h3 {
     padding-right: 20%;
     /* padding-bottom: 30%; */
   }
-  /*
+
   .num-app-steps:last-of-type {
     margin-bottom: 20px;
-  } */
-  /* .num-app-steps div {
+  }
+  .num-app-steps div {
     height: 40px;
     width: 41px;
     padding: 4px;
     float: left;
     margin-right: 15px;
-	} */
-  /* 
+  }
+
   .col {
     width: 100%;
-  } */
+  }
 }
 
 /* Small iphones 0  - 480px */
@@ -108,7 +108,7 @@
     width: 100%;
   }
   .app-store {
-    width: 40%;
+    width: 30%;
     height: auto;
   }
 }

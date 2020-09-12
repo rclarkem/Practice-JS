@@ -391,7 +391,8 @@ footer p {
 }
 
 .social-nav {
-  float: right;
+  text-align: right;
+  /* float: i; */
 }
 
 .social-nav li {
