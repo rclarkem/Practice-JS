@@ -376,6 +376,10 @@ footer p {
   text-transform: uppercase;
 }
 
+.col.span-1-of-2.social-navigation {
+  margin-left: 0;
+}
+
 .footer-nav li,
 .social-nav li {
   display: inline-block;
@@ -391,8 +395,8 @@ footer p {
 }
 
 .social-nav {
-  text-align: right;
-  /* float: i; */
+  /* text-align: right; */
+  float: right;
 }
 
 .social-nav li {

@@ -96,6 +96,10 @@
   .col {
     width: 100%;
   }
+  .social-nav {
+    /* text-align: left; */
+    float: left;
+  }
 }
 
 /* Small iphones 0  - 480px */
@@ -110,5 +114,9 @@
   .app-store {
     width: 30%;
     height: auto;
+  }
+  .social-nav {
+    /* text-align: left; */
+    float: left;
   }
 }
