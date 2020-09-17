@@ -387,7 +387,7 @@ footer p {
 }
 
 .footer-nav {
-  float: left;
+  text-align: left;
 }
 
 .footer-nav li {
@@ -395,18 +395,12 @@ footer p {
 }
 
 .social-nav {
-  /* text-align: right; */
-  float: right;
+  text-align: right;
 }
 
 .social-nav li {
-  font-size: 20px;
+  font-size: 110%;
 }
-/* 
-.social-nav li:last-child,
-.footer-nav li:last-child {
-  
-} */
 
 .social-nav li a:link,
 .social-nav li a:visited,

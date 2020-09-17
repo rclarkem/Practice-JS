@@ -62,7 +62,7 @@
   }
 
   h1 {
-    font-size: 180%;
+    font-size: 250%;
   }
   .title {
     font-size: 150%;
@@ -96,9 +96,10 @@
   .col {
     width: 100%;
   }
-  .social-nav {
-    /* text-align: left; */
-    float: left;
+  .social-nav,
+  .footer-nav {
+    text-align: center;
+    /* float: left; */
   }
 }
 
@@ -115,8 +116,9 @@
     width: 30%;
     height: auto;
   }
-  .social-nav {
-    /* text-align: left; */
-    float: left;
+  .social-nav,
+  .footer-nav {
+    text-align: center;
+    /* float: left; */
   }
 }
