@@ -128,8 +128,8 @@ header {
 */
 
 .logo {
-  top: -55px;
-  left: -70px;
+  top: -45px;
+  left: -30px;
   width: auto;
   height: 190px;
   position: absolute;
@@ -170,6 +170,7 @@ header {
   left: 0;
   width: 100%;
   background-color: #fff;
+  box-shadow: 0 2px 2px rgba(108, 108, 108, 0.442);
 }
 
 .sticky .main-nav li a:link,
