@@ -21,4 +21,7 @@ $(document).ready(function () {
   $('.js--scroll-to-works').click(function () {
     $('html, body').animate({ scrollTop: $('.js--section-features').offset().top }, 1000);
   });
+  $('.js--scroll-to-iphone').click(function () {
+    $('html, body').animate({ scrollTop: $('#iphone').offset().top }, 1000);
+  });
 });
