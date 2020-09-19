@@ -101,6 +101,13 @@
     text-align: center;
     /* float: left; */
   }
+  .logo {
+    top: -40px;
+    left: -30px;
+    width: auto;
+    height: 150px;
+    position: absolute;
+  }
 }
 
 /* Small iphones 0  - 480px */
@@ -120,5 +127,13 @@
   .footer-nav {
     text-align: center;
     /* float: left; */
+  }
+
+  .logo {
+    top: -40px;
+    left: -30px;
+    width: auto;
+    height: 150px;
+    position: absolute;
   }
 }

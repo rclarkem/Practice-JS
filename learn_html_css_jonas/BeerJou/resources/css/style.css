@@ -128,23 +128,23 @@ header {
 */
 
 .logo {
-  top: -40px;
-  left: -30px;
+  top: -55px;
+  left: -70px;
   width: auto;
-  height: 200px;
+  height: 190px;
   position: absolute;
 }
 
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 55px;
+  margin-top: 35px;
 }
 
 .main-nav li {
   display: inline-block;
   margin-left: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-family: 'Roboto Slab', serif, 'Arial';
 }
 
