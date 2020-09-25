@@ -35,6 +35,14 @@ $(document).ready(function () {
       offset: '50%',
     }
   );
+  $('.js--wp-2').waypoint(
+    function (direction) {
+      $('.js--wp-2').addClass('animate__fadeInUpBig');
+    },
+    {
+      offset: '70%',
+    }
+  );
 
   // $(window).resize(function () {
   //   var nav = $('.js--main-nav');

@@ -461,11 +461,21 @@ footer p {
 --------------------------------------
 */
 
-.js--wp-1 {
+.js--wp-1,
+.js--wp-2 {
   opacity: 0;
 }
-.js--wp-1.animate__fadeIn {
+.js--wp-1.animate__fadeIn,
+.js--wp-2.animate__fadeInUpBig {
   opacity: 1;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.js--wp-1.animate__fadeIn {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.js--wp-2.animate__fadeInUpBig {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
