@@ -167,6 +167,18 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon ion-icon {
+  font-size: 250%;
+  color: white;
+}
+
 .sticky {
   position: fixed;
   top: 0;
