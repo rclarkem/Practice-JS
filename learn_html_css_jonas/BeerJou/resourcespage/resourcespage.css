@@ -67,10 +67,16 @@ header {
 .banner-text {
   position: absolute;
   width: 1140px;
-  top: 50%;
+  top: 40%;
   left: 50%;
+  text-align: center;
+  justify-content: center;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.resourcespage-text {
+  color: #ff793f;
 }
 
 .overlay {
@@ -132,7 +138,7 @@ header {
 */
 
 .logo {
-  top: -50px;
+  top: -40px;
   left: -30px;
   width: auto;
   height: 190px;
