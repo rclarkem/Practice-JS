@@ -79,6 +79,18 @@ header {
   color: #ff793f;
 }
 
+.cities {
+  margin-top: 20px;
+}
+
+.cities li {
+  display: inline;
+  color: white;
+  padding-right: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .overlay {
   width: 100%;
   height: 100%;
