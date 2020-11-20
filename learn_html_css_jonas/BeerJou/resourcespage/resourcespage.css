@@ -103,6 +103,20 @@ header {
   font-weight: bold;
   text-align: center;
 }
+/*
+.content {
+  text-align: center;
+  max-width: 1400px;
+}
+.content p {
+  word-wrap: break-word;
+  padding-left: 300px;
+  padding-right: 300px;
+  max-width: 1400px;
+  text-align: justify;
+  display: block;
+}
+*/
 
 .overlay {
   width: 100%;
