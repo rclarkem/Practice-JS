@@ -1,13 +1,11 @@
-/** @format */
-
 // Practice JS
 
 // Variables
 
 // strings
-let firstName = "Reina";
+let firstName = 'Reina';
 // console.log(firstName)
-let lastName = "Mitchell";
+let lastName = 'Mitchell';
 // console.log(lastName)
 
 // int
@@ -25,12 +23,12 @@ let fullAge = true;
 // console.log(firstName + ' ' + age)
 
 let job, isMarried;
-job = "teacher";
+job = 'teacher';
 isMarried = false;
 // console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is she married? ' + isMarried)
 
-age = "twenty-eight";
-job = "driver";
+age = 'twenty-eight';
+job = 'driver';
 // console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is she married? ' + isMarried)
 
 // lastName = prompt('What is her last name? ')
@@ -81,5 +79,3 @@ let johnBMI = johnWeight / johnHeight ** 2;
 let bool = johnBMI >= markBMI;
 // console.log("Is John's BMI greater than or equal to Mark's? " + bool)
 // console.log(markBMI, johnBMI)
-
-
