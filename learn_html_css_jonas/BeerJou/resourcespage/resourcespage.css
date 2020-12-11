@@ -415,10 +415,6 @@ section {
 --------------------------------------
 */
 
-.beer-types-section {
-  background-color: #f4f4f4;
-}
-
 .iphone-section {
   background-color: #f4f4f4;
 }
@@ -590,5 +586,10 @@ footer p {
 
 .beer-types {
   padding: 60px 0;
+  background-color: #f4f4f4;
+}
+
+.beer-types-section {
+  padding: 40px 0;
   background-color: #f4f4f4;
 }
